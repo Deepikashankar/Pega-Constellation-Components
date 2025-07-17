@@ -1,0 +1,67 @@
+{
+  "name": "Dc_generic_DeepikaButton",
+  "label": "Deepika Button",
+  "description": "Deepika Button",
+  "organization": "Dc",
+  "version": "0.0.1",
+  "library": "generic",
+  "allowedApplications": [],
+  "componentKey": "Dc_generic_DeepikaButton",
+  "type": "Field",
+  "subtype": "Text-URL",
+  "icon": "images/pz-url-active.svg",
+  "properties": [
+    {
+      "format": "SELECT",
+      "name": "countryCode",
+      "label": "Country code",
+      "defaultValue": "USA",
+      "source": [
+        {
+          "key": "USA",
+          "value": "United States"
+        },
+        {
+          "key": "CAN",
+          "value": "Canada"
+        },
+        {
+          "key": "AUS",
+          "value": "Australia"
+        },
+        {
+          "key": "JPN",
+          "value": "Japan"
+        },
+        {
+          "key": "IND",
+          "value": "India"
+        },
+        {
+          "key": "TUR",
+          "value": "Turkey"
+        }
+      ]
+    },
+    {
+      "label": "Advanced",
+      "format": "GROUP",
+      "collapsible": true,
+      "properties": [
+        {
+          "name": "testId",
+          "label": "Test ID",
+          "format": "TEXT",
+          "ignorePattern": "[^-_\\p{N}\\p{L}]",
+          "includeAnnotations": false
+        }
+      ]
+    }
+  ],
+  "defaultConfig": {
+    "label": "@L $this.label",
+    "detailFVLItem": true,
+    "isFormWidth" : false,
+    "isContainerWidth" : false
+  }
+}

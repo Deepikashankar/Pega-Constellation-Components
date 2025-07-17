@@ -1,0 +1,72 @@
+{
+  "name": "Dc_Extn_CardEx",
+  "label": "Card Ex",
+  "description": "Credit Card Entry Component",
+  "organization": "Dc",
+  "version": "0.0.1",
+  "library": "Extn",
+  "allowedApplications": [],
+  "componentKey": "Dc_Extn_CardEx",
+  "type": "Field",
+  "subtype": "Text",
+  "icon": "images/pz-text-input-active.svg",
+  "properties": [
+    {
+      "label": "Card Configuration",
+      "format": "GROUP",
+      "properties": [
+        {
+          "name": "cardNumber",
+          "label": "Card Number",
+          "type": "TextInput"
+        },
+        {
+          "name": "cardName",
+          "label": "Card Name",
+          "type": "TextInput"
+        },
+        {
+          "name": "cardExpiry",
+          "label": "Card Expiry (MM/YY)",
+          "type": "TextInput"
+        },
+        {
+          "name": "cardCVC",
+          "label": "Card CVC",
+          "type": "TextInput"
+        }
+      ]
+    },
+    {
+      "label": "Visibility",
+      "format": "GROUP",
+      "properties": [
+        {
+          "name": "visibility",
+          "label": "Visibility",
+          "format": "VISIBILITY"
+        }
+      ]
+    },
+    {
+      "label": "Advanced",
+      "format": "GROUP",
+      "collapsible": true,
+      "properties": [
+        {
+          "name": "testId",
+          "label": "Test ID",
+          "format": "TEXT",
+          "ignorePattern": "[^-_\\p{N}\\p{L}]",
+          "includeAnnotations": false
+        }
+      ]
+    }
+  ],
+  "defaultConfig": {
+    "cardNumber": "",
+    "cardName": "",
+    "cardExpiry": "",
+    "cardCVC": ""
+  }
+}

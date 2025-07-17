@@ -1,0 +1,68 @@
+{
+    "name": "Pega_generic_ExtensionLayout",
+    "label": "ExtebsionLayout",
+    "description": "ExtebsionLayout",
+    "organization": "Pega",
+    "version": "0.0.1",
+    "library": "generic",
+    "allowedApplications": [],
+    "componentKey": "Pega_generic_ExtensionLayout",
+    "type": "Template",
+    "subtype": "FORM",
+    "icon": "DefaultForm.svg",
+    "properties": [
+        {
+            "format": "SELECT",
+            "name": "NumCols",
+            "label": "DeepikaFormLayout",
+            "defaultValue": "4",
+            "source": [
+                {
+                    "key": "1",
+                    "value": "One"
+                },
+                {
+                    "key": "2",
+                    "value": "Two"
+                },
+                {
+                    "key": "3",
+                    "value": "Three"
+                },
+                {
+                    "key": "4",
+                    "value": "Four"
+                },
+                {
+                    "key": "5",
+                    "value": "Five"
+                }
+            ]
+        },
+        {
+            "format": "SELECT",
+            "name": "templateOverrideMode",
+            "label": "Template for embedded views",
+            "defaultValue": "USE_TEMPLATE",
+            "source": [
+                {
+                    "key": "USE_TEMPLATE",
+                    "value": "Use template"
+                },
+                {
+                    "key": "IGNORE_TEMPLATE",
+                    "value": "Ignore template"
+                }
+            ]
+        },
+        {
+            "format": "INSTRUCTIONS"
+        },
+        {
+            "name": "Fields",
+            "label": "Fields",
+            "format": "CONTENTPICKER",
+            "allowCreatingGroup": true
+        }
+    ]
+}

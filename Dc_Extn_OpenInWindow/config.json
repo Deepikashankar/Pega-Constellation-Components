@@ -1,0 +1,101 @@
+{
+  "name": "Dc_Extn_OpenInWindow",
+  "label": "OpenInWindow",
+  "description": "",
+  "organization": "Dc",
+  "version": "0.0.1",
+  "library": "Extn",
+  "allowedApplications": [],
+  "componentKey": "Dc_Extn_OpenInWindow",
+  "type": "Field",
+  "subtype": "Text",
+  "icon": "images/pz-text-input-active.svg",
+  "properties": [
+    {
+      "name": "buttonLabel",
+      "label": "Button Label",
+      "format": "TEXT"
+    },
+    {
+      "name": "url",
+      "label": "URL to Open",
+      "format": "TEXT"
+    },
+    {
+      "name": "activityName",
+      "label": "Activity Name",
+      "format": "TEXT"
+    },
+    {
+      "name": "activityParams",
+      "label": "Activity Params (JSON)",
+      "format": "TEXT"
+    },
+    {
+      "name": "dataTransformName",
+      "label": "Data Transform Name",
+      "format": "TEXT"
+    },
+    {
+      "name": "dataTransformParams",
+      "label": "Data Transform Params (JSON)",
+      "format": "TEXT"
+    },
+    {
+      "name": "usePrimaryPage",
+      "label": "Use Primary Page?",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "winName",
+      "label": "Window Name",
+      "format": "TEXT"
+    },
+    {
+      "name": "width",
+      "label": "Window Width (px)",
+      "format": "TEXT"
+    },
+    {
+      "name": "height",
+      "label": "Window Height (px)",
+      "format": "TEXT"
+    },
+    {
+      "name": "resizable",
+      "label": "Resizable?",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "scrollbars",
+      "label": "Scrollbars?",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "toolbar",
+      "label": "Toolbar?",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "menubar",
+      "label": "Menubar?",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "statusbar",
+      "label": "Statusbar?",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "locationbar",
+      "label": "Location Bar?",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "replaceHistory",
+      "label": "Replace History?",
+      "format": "BOOLEAN"
+    }
+  ],
+  "defaultConfig": {}
+}
