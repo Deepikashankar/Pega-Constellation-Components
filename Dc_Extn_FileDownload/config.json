@@ -1,0 +1,23 @@
+{
+  "name": "Dc_Extn_FileDownload",
+  "label": "FileDownload",
+  "description": "Component to download a file from the bundle",
+  "organization": "Dc",
+  "version": "0.0.1",
+  "library": "Extn",
+  "allowedApplications": [],
+  "componentKey": "Dc_Extn_FileDownload",
+  "type": "Widget",
+  "subtype": ["PAGE", "CASE"],
+  "icon": "OneColumnPage.svg",
+  "properties": [
+    {
+      "name": "title",
+      "label": "Button Label",
+      "format": "TEXT"
+    }
+  ],
+  "defaultConfig": {
+    "title": "Download File"
+  }
+}

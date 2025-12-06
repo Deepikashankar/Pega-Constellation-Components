@@ -1,0 +1,23 @@
+{
+  "name": "Dc_Extn_CaseTransition",
+  "label": "Case Transition",
+  "description": "",
+  "organization": "Dc",
+  "version": "0.0.1",
+  "library": "Extn",
+  "allowedApplications": [],
+  "componentKey": "Dc_Extn_CaseTransition",
+  "type": "Widget",
+  "subtype": "CASE",
+  "icon": "OneColumnPage.svg",
+  "properties": [
+   {
+      "name": "label",
+      "label": "Label value",
+      "format": "TEXT"
+    }
+  ],
+  "defaultConfig": {
+     "label": "@L Case Transition"
+  }
+}

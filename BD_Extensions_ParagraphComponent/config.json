@@ -1,0 +1,42 @@
+{
+    "name": "BD_Extensions_ParagraphComponent",
+    "label": "Paragraph Component",
+    "description": "Paragraph Component",
+    "organization": "BD",
+    "version": "0.0.1",
+    "library": "Extensions",
+    "allowedApplications": [],
+    "componentKey": "BD_Extensions_ParagraphComponent",
+    "type": "Field",
+    "subtype": "Text-Paragraph",
+    "icon": "images/pz-text-area-active.svg",
+    "properties": [
+        {
+            "name": "description",
+            "label": "Description",
+            "format": "TEXT",
+            "required": true
+        },
+        {
+            "name": "fontSize",
+            "label": "Font Size (px)",
+            "format": "NUMBER"
+        },
+        {
+            "name": "color",
+            "label": "Text Color (Hex Value, e.g. #FF0000)",
+            "format": "TEXT"
+        },
+        {
+            "name": "bold",
+            "label": "Bold",
+            "format": "BOOLEAN"
+        }
+    ],
+    "defaultConfig": {
+        "description": "Default paragraph text",
+        "fontSize": 14,
+        "color": "#000000",
+        "bold": false
+    }
+}

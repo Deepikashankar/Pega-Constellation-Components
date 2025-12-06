@@ -1,0 +1,60 @@
+{
+    "name": "BD_Extn_LinkComponent",
+    "label": "Link Component",
+    "description": "Link Component",
+    "organization": "BD",
+    "version": "0.0.1",
+    "library": "Extn",
+    "allowedApplications": [],
+    "componentKey": "BD_Extn_LinkComponent",
+    "type": "Field",
+    "subtype": "Text",
+    "properties": [
+        {
+            "name": "paragraphText",
+            "label": "Paragraph Text",
+            "format": "TEXT"
+        },
+        {
+            "name": "textSize",
+            "label": "Font Size (px)",
+            "format": "NUMBER",
+            "defaultValue": 14
+        },
+        {
+            "name": "visibility",
+            "label": "Visible",
+            "format": "VISIBILITY"
+        },
+        {
+            "name": "disabled",
+            "label": "Disabled",
+            "format": "DISABLED"
+        },
+        {
+            "name": "required",
+            "label": "Required",
+            "format": "REQUIRED"
+        },
+        {
+            "label": "Advanced",
+            "format": "GROUP",
+            "collapsible": true,
+            "properties": [
+                {
+                    "name": "testId",
+                    "label": "Test ID",
+                    "format": "TEXT",
+                    "ignorePattern": "[^-_\\p{N}\\p{L}]",
+                    "includeAnnotations": false
+                }
+            ]
+        }
+    ],
+    "defaultConfig": {
+        "textSize": 14,
+        "detailFVLItem": true,
+        "isFormWidth": false,
+        "isContainerWidth": false
+    }
+}

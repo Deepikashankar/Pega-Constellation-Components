@@ -1,0 +1,118 @@
+{
+  "name": "BD_Extn_CaseFileDownload",
+  "label": "Case File Download",
+  "description": "Case File Download",
+  "organization": "BD",
+  "version": "0.0.1",
+  "library": "Extn",
+  "allowedApplications": [],
+  "componentKey": "BD_Extn_CaseFileDownload",
+  "type": "Field",
+  "subtype": "Text",
+  "properties": [
+    {
+      "name": "title",
+      "label": "Heading",
+      "format": "TEXT"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "format": "TEXT"
+    },
+    {
+      "name": "linkLabel",
+      "label": "Download Link Label",
+      "format": "TEXT"
+    },
+    {
+      "name": "filePath",
+      "label": "File Path",
+      "format": "TEXT"
+    },
+    {
+      "name": "extension",
+      "label": "File Extension",
+      "format": "TEXT"
+    },
+    {
+      "name": "fileName",
+      "label": "Download File Name (Default)",
+      "format": "TEXT"
+    },
+    {
+      "name": "dynamicFileName",
+      "label": "Dynamic File Name (Field Reference)",
+      "format": "TEXT"
+    },
+    {
+      "name": "headerColor",
+      "label": "Header Color",
+      "format": "TEXT"
+    },
+    {
+      "name": "headerSize",
+      "label": "Header Font Size (px)",
+      "format": "TEXT"
+    },
+    {
+      "name": "headerBold",
+      "label": "Header Bold",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "descriptionColor",
+      "label": "Description Color",
+      "format": "TEXT"
+    },
+    {
+      "name": "descriptionSize",
+      "label": "Description Font Size (px)",
+      "format": "TEXT"
+    },
+    {
+      "name": "descriptionBold",
+      "label": "Description Bold",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "linkColor",
+      "label": "Link Color",
+      "format": "TEXT"
+    },
+    {
+      "name": "linkSize",
+      "label": "Link Font Size (px)",
+      "format": "TEXT"
+    },
+    {
+      "name": "linkBold",
+      "label": "Link Bold",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "visibility",
+      "label": "Visible",
+      "format": "VISIBILITY"
+    }
+  ],
+  "defaultConfig": {
+    "title": "Product Release",
+    "description": "Click below to download the file",
+    "linkLabel": "Download File",
+    "filePath": "/files/sample.pdf",
+    "extension": "pdf",
+    "fileName": "download",
+    "dynamicFileName": "",
+    "headerColor": "#000000",
+    "headerSize": "18",
+    "headerBold": true,
+    "descriptionColor": "#333333",
+    "descriptionSize": "14",
+    "descriptionBold": false,
+    "linkColor": "blue",
+    "linkSize": "14",
+    "linkBold": false,
+    "visibility": true
+  }
+}
