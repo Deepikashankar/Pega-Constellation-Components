@@ -312,6 +312,3 @@ Triggers actions related to data objects — not just work objects.
 * Supports data refresh, update, or integration pulls
 
 ---
-
-
-Just tell me!
